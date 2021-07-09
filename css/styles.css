@@ -143,10 +143,6 @@ img {
   fill: #757575;
 }
 
-.header-contacts-icon {
-  /* display: block; */
-}
-
 .svg-icon-mail {
   /* align-self: center; */
   margin-right: 10px;
@@ -274,6 +270,9 @@ img {
 .main-svg-wrapper {
   display: flex;
   justify-content: center;
+  height: 120px;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 /* = = = = = = What We Do Section = = = = = = */
@@ -385,13 +384,12 @@ img {
   /* background-color: #000; */
   align-items: center;
   justify-content: center;
-
+  margin-right: 10px;
   margin-bottom: 30px;
   fill: #afb1b8;
 }
 
 .team-section-svg-icon-link:not(:last-child) {
-  margin-right: 10px;
 }
 
 /* OUR CLIENTS */
@@ -401,12 +399,6 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   flex-basis: calc((100% - 90) / 3);
-}
-
-.our-client-list-svg-icon {
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 .client-link-icon {
@@ -624,7 +616,7 @@ img {
 }
 
 .buttons-list-wrapper button {
-  background: var(--secondary-main-color);
+  background: #f5f4fa;
   border-radius: 4px;
   font-family: var(--main-font), sans-serif;
   font-style: normal;
@@ -697,9 +689,6 @@ img {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-
-.link-card-projects-wrapper {
 }
 
 /* = = = = = PORTFOLIO Interactive section = = = = = */
