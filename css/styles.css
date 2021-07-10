@@ -273,6 +273,8 @@ img {
   height: 120px;
   align-items: center;
   margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
 }
 
 /* = = = = = = What We Do Section = = = = = = */
@@ -387,9 +389,6 @@ img {
   margin-right: 10px;
   margin-bottom: 30px;
   fill: #afb1b8;
-}
-
-.team-section-svg-icon-link:not(:last-child) {
 }
 
 /* OUR CLIENTS */
